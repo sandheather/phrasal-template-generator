@@ -11,3 +11,19 @@ adjective = prompt('An adjective (beautiful, super, etc.)');
 verb = prompt('A past tense verb (ran, burped, etc.)');
 story = prompt('Which story would you like? a) Snacking b) Escaping c) Winning Enter the letter below:');
 
+if (story == 'a') {
+  document.write('After snacking on');
+  document.write(' ');
+  document.write(adjective);
+  document.write(' ');
+  document.write('treats, the');
+  document.write(' ');
+  document.write(colour);
+  document.write(' ');
+  document.write('bellied');
+  document.write(' ');
+  document.write(creature);
+  document.write(' ');
+  document.write(verbed);
+  document.write(' ');
+  document.write('for hours.');
