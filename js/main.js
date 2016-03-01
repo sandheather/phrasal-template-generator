@@ -27,3 +27,17 @@ if (story == 'a') {
   document.write(verbed);
   document.write(' ');
   document.write('for hours.');
+} if (story == 'b') {
+  document.write('Ameilia');
+  document.write(' ');
+  document.write(verbed);
+  document.write(' ');
+  document.write('through the');
+  document.write(' ');
+  document.write(adjective);
+  document.write(' ');
+  document.write(colour);
+  document.write(' ');
+  document.write('nebula escaping the space');
+  document.write(' ');
+  document.write(creature);
