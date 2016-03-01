@@ -41,3 +41,18 @@ if (story == 'a') {
   document.write('nebula escaping the space');
   document.write(' ');
   document.write(creature);
+ } if (story == 'c') {
+  document.write('Jackson chose his');
+  document.write(' ');
+  document.write(adjective);
+  document.write(',');
+  document.write(' ');
+  document.write(colour);
+  document.write(' ');
+  document.write(creature);
+  document.write(' ');
+  document.write('card and');
+  document.write(' ');
+  document.write(verbed);
+  document.write(' ');
+  document.write('it to the table knowing he won.');
