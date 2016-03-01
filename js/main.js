@@ -24,13 +24,13 @@ if (story == 'a') {
   document.write(' ');
   document.write(creature);
   document.write(' ');
-  document.write(verbed);
+  document.write(verb);
   document.write(' ');
   document.write('for hours.');
 } if (story == 'b') {
   document.write('Ameilia');
   document.write(' ');
-  document.write(verbed);
+  document.write(verb);
   document.write(' ');
   document.write('through the');
   document.write(' ');
@@ -41,7 +41,7 @@ if (story == 'a') {
   document.write('nebula escaping the space');
   document.write(' ');
   document.write(creature);
- } if (story == 'c') {
+} if (story == 'c') {
   document.write('Jackson chose his');
   document.write(' ');
   document.write(adjective);
@@ -53,6 +53,7 @@ if (story == 'a') {
   document.write(' ');
   document.write('card and');
   document.write(' ');
-  document.write(verbed);
+  document.write(verb);
   document.write(' ');
   document.write('it to the table knowing he won.');
+}
