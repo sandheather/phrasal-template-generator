@@ -9,51 +9,14 @@ colour = prompt('A colour (orange, indigo, etc.)');
 creature = prompt('A creature (dragon, moth, etc.)');
 adjective = prompt('An adjective (beautiful, super, etc.)');
 verb = prompt('A past tense verb (ran, burped, etc.)');
-story = prompt('Which story would you like? a) Snacking b) Escaping c) Winning Enter the letter below:');
+story = prompt('Which story would you like? \n a) Snacking \n b) Escaping \n c) Winning Enter the letter below:');
 
 if (story == 'a') {
-  document.write('After snacking on');
-  document.write(' ');
-  document.write(adjective);
-  document.write(' ');
-  document.write('treats, the');
-  document.write(' ');
-  document.write(colour);
-  document.write(' ');
-  document.write('bellied');
-  document.write(' ');
-  document.write(creature);
-  document.write(' ');
-  document.write(verb);
-  document.write(' ');
-  document.write('for hours.');
+  document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verb + ' for hours.');
+
 } if (story == 'b') {
-  document.write('Ameilia');
-  document.write(' ');
-  document.write(verb);
-  document.write(' ');
-  document.write('through the');
-  document.write(' ');
-  document.write(adjective);
-  document.write(' ');
-  document.write(colour);
-  document.write(' ');
-  document.write('nebula escaping the space');
-  document.write(' ');
-  document.write(creature);
+  document.write('Ameilia ' + verb + ' through the ' + adjective + ' ' + colour + ' nebula escaping the space ' + creature + '.');
+
 } if (story == 'c') {
-  document.write('Jackson chose his');
-  document.write(' ');
-  document.write(adjective);
-  document.write(',');
-  document.write(' ');
-  document.write(colour);
-  document.write(' ');
-  document.write(creature);
-  document.write(' ');
-  document.write('card and');
-  document.write(' ');
-  document.write(verb);
-  document.write(' ');
-  document.write('it to the table knowing he won.');
+  document.write('Jackson chose his ' + adjective + ', ' + colour  + ' ' + creature + ' card and ' + verb + ' it to the table knowing he won.');
 }
